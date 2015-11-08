@@ -15,6 +15,9 @@ public:
     explicit DescargaLocal(QWidget *parent = 0);
     ~DescargaLocal();
 
+private slots:
+    void on_Descargar_clicked();
+
 private:
     Ui::DescargaLocal *ui;
 };

@@ -12,3 +12,8 @@ DescargaLocal::~DescargaLocal()
 {
     delete ui;
 }
+
+void DescargaLocal::on_Descargar_clicked()
+{
+   ui->FicheroDescargar->setText("http://www.iesmajuelo.com/~florid/"+ui->FicheroDescargar->text());
+}
